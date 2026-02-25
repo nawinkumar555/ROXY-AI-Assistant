@@ -12,7 +12,7 @@ DANGER_RED = "#FF4C4C"
 BG_BLACK = "#000000"
 
 try:
-    genai.configure(api_key="AIzaSyAYgDc-wTr8H3bmzXCljTyk9PnK_QRONcM")
+    genai.configure(api_key="AIzaSyDPstl0vX50mqWzjADRSLm9DEMF2ENBcaY")
     model = genai.GenerativeModel('gemini-1.5-flash')
     api_ready = True
 except: api_ready = False
